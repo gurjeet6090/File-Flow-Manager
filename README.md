@@ -52,6 +52,7 @@ A beautiful, modern, and fully functional file manager built with PHP, featuring
    cd fileflow
    ```
 2. 📁 File Structure
+ ```bash
  fileflow/
   ├── index.php              # Main file manager
   ├── login.php              # Login page
@@ -60,7 +61,8 @@ A beautiful, modern, and fully functional file manager built with PHP, featuring
   ├── file_operations.php    # All file operations
   ├── uploads/               # File storage directory
   └── README.md
-3. 🔧 Configuration
+```
+4. 🔧 Configuration
    Changing Login Credentials
    Edit auth.php to change the default credentials:
      ```bash
