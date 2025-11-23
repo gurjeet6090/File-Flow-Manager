@@ -1,4 +1,3 @@
-# File-Flow-Manager
 # FileFlow - Modern PHP File Manager
 <img width="1332" height="855" alt="image" src="https://github.com/user-attachments/assets/c5dbafc3-e670-48e0-9e32-d5b160ff3e15" />
 <img width="1919" height="882" alt="image" src="https://github.com/user-attachments/assets/f272ec6b-ab55-48eb-81ce-6137516dd31d" />
