@@ -1,0 +1,18 @@
+# -----------------------------------------
+# 1. Disable directory browsing
+# -----------------------------------------
+Options -Indexes
+
+
+# -----------------------------------------
+# 2. Allow PHP file access without extension
+# -----------------------------------------
+RewriteEngine On
+
+# If requested URL does not map to a real file or folder
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Internally rewrite to .php
+RewriteRule ^([^/]+)/?$ $1.php [L]
+
